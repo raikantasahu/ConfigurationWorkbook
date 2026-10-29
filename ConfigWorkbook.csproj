@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>ConfigWorkbook</RootNamespace>
+    <AssemblyName>ConfigWorkbook</AssemblyName>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <InvariantGlobalization>true</InvariantGlobalization>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Aras.IOM" Version="15.1.2" />
+    <PackageReference Include="ClosedXML" Version="0.105.1" />
+    <PackageReference Include="System.Security.Cryptography.Pkcs" Version="10.0.14" />
+    <PackageReference Include="System.Security.Cryptography.Xml" Version="10.0.14" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- The queries ship inside the program as "Sql.<file>.sql". -->
+    <EmbeddedResource Include="Sql\*.sql" LogicalName="Sql.%(Filename)%(Extension)" />
+  </ItemGroup>
+
+</Project>

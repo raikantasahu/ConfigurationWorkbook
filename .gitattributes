@@ -1,0 +1,19 @@
+# Normalize text files to LF in the repository.
+* text=auto
+
+*.cs      text diff=csharp
+*.csproj  text
+*.sln     text eol=crlf
+*.sql     text
+*.md      text
+*.json    text
+*.xml     text
+
+# cmd.exe needs CRLF in batch files.
+*.bat     text eol=crlf
+*.cmd     text eol=crlf
+
+*.xlsx    binary
+*.png     binary
+*.dll     binary
+*.exe     binary

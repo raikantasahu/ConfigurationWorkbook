@@ -1,0 +1,25 @@
+# Build output
+bin/
+obj/
+[Dd]ebug/
+[Rr]elease/
+*.nupkg
+
+# IDE and user files
+.vs/
+.vscode/
+.idea/
+*.user
+*.suo
+*.userprefs
+
+# Local copy of run-template.bat, with the connection settings and credentials
+run.bat
+
+# Workbooks that the program writes, and Excel lock files
+* Configuration Workbook.xlsx
+~$*
+
+# OS files
+Thumbs.db
+.DS_Store
