@@ -69,6 +69,8 @@ You can also set the `INNOVATOR_*` variables in the environment. They override t
 | Reports | The reports. |
 | Client Style (CUI) | The presentation configurations, command bar sections and command bar items. |
 
+For screenshots of the 12 sheets for the `Part` ItemType, see [docs/screenshots](docs/screenshots/README.md).
+
 > **Note:** The program does not make screenshots. Make the screenshots of the Forms and the Life Cycle
 > Maps manually, and add them to the workbook.
 
