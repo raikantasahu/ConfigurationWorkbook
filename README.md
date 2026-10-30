@@ -58,7 +58,7 @@ You can also set the `INNOVATOR_*` variables in the environment. They override t
 |---|---|
 | Packaging | The package that contains the ItemType. |
 | Properties | The properties of the ItemType. |
-| Relationship Types | The RelationshipTypes. Each null RelationshipType also gets the properties of its relationship ItemType. |
+| Relationship Types | The RelationshipTypes. Each null RelationshipType also gets the properties of its relationship ItemType. A RelationshipType with a Tree Grid View tab also gets the names of the Tree Grid View and its Query Definition. |
 | Views | The views. Each form gets its fields, field events and form events. |
 | Server Events | The server events. |
 | Actions | The actions. |
